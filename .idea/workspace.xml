@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1837074-d841-4eee-9045-a72497bc55a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/coderslab/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/coderslab/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/coderslab/controller/UserGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/coderslab/controller/UserGroupController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/coderslab/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/coderslab/controller/UsersController.java" afterDir="false" />
     </list>
@@ -19,8 +19,8 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/coderslab/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="315">
+              <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
               <folding>
                 <element signature="method#main#0;class#MainController#0" />
               </folding>
@@ -28,23 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UsersController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pl/coderslab/controller/UsersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            <state relative-caret-position="330">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserGroupController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserGroupController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/coderslab/controller/UserGroupController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-              <folding>
-                <element signature="method#printAll#0;class#UserGroupController#0" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -94,8 +91,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/pl/coderslab/dao/UserGroupDao.java" />
         <option value="$PROJECT_DIR$/src/pl/coderslab/services/DbService.java" />
-        <option value="$PROJECT_DIR$/src/pl/coderslab/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/src/pl/coderslab/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/pl/coderslab/controller/UserGroupController.java" />
+        <option value="$PROJECT_DIR$/src/pl/coderslab/controller/UsersController.java" />
       </list>
     </option>
   </component>
@@ -276,12 +274,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532089708584</updated>
-      <workItem from="1532089714440" duration="1843000" />
+      <workItem from="1532089714440" duration="3830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1843000" />
+    <option name="totallyTimeSpent" value="3830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="28" width="1932" height="1033" extended-state="6" />
@@ -325,35 +323,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pl/coderslab/controller/UserGroupController.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pl/coderslab/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="method#main#0;class#MainController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/coderslab/controller/UsersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/coderslab/services/DbService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -369,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/coderslab/dao/UserGroupDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/coderslab/entity/UserGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -383,13 +349,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/coderslab/dao/UserGroupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/coderslab/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+          <folding>
+            <element signature="method#main#0;class#MainController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/coderslab/controller/UserGroupController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-          <folding>
-            <element signature="method#printAll#0;class#UserGroupController#0" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/coderslab/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>

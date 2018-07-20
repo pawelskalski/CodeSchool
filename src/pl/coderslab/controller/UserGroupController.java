@@ -5,21 +5,23 @@ import java.util.Scanner;
 public class UserGroupController {
 
 
-    static void startManagingUsers(){
+    static void startManagingUsersGroup(){
 
         int action = choseAction();
 
         switch (action){
             case 0: MainController.startMainMenu(); break;
-            case 1: addUser(); break;
-            case 2: editUser(); break;
+            case 1: addGroupOfUser(); break;
+            case 2: editGroupOfUser(); break;
+            case 3: deletegroupOfUser(); break;
+            case 4: printAllGroupsOfUsers(); break;
 
         }
 
     }
 
 
-    static private void addUser(){
+    static private void addGroupOfUser(){
 
         System.out.println("Starting to add user group");
         //Scan data for user group to add
@@ -29,26 +31,28 @@ public class UserGroupController {
 //        UserGroupService.add(userGroup)
 
     }
-    static private void editUser(){
+    static private void editGroupOfUser(){
         System.out.println("Starting to edit user");
-        // select + scanner
-        // call dao
-        // call to
+        // pobranie od uzytkownika id grupy do edycji
+        // kontakt z bazą danych
+        // edycja uzytkownika (select)
+        // zakonczenie połączenia
         //
 
     }
-    static private void deleteUser(){
+    static private void deletegroupOfUser(){
         System.out.println("usuwanie uzytkownika");
-        // pobranie od uzytkownika id uzytkownika do usuniecia
+        // pobranie od uzytkownika id grupy uzytkownika do usuniecia
         // kontakt z baza danych
         // usuniecie konkretnego uzytkownika
         // zakonczenie połączenia
     }
 
-    private static void printAll(){
+    private static void printAllGroupsOfUsers(){
         System.out.println("Printion all user groups");
+        //Select*from group
 
-        startManagingUsers();
+        startManagingUsersGroup();
     }
 
     private static int choseAction(){

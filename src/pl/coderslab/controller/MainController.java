@@ -24,7 +24,7 @@ public class MainController {
         int action = choseAction();
         switch(action){
             case 1: System.out.println("Option 1"); break;
-            case 2: UserGroupController.startManagingUsers();break;
+            case 2: UserGroupController.startManagingUsersGroup();break;
             case 3: System.out.println("Option 3"); break;
             case 4: System.out.println("Option 4"); break;
         }

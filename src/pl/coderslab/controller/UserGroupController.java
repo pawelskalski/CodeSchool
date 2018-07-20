@@ -12,6 +12,8 @@ public class UserGroupController {
         switch (action){
             case 0: MainController.startMainMenu(); break;
             case 1: addUser(); break;
+            case 2: editUser(); break;
+
         }
 
     }
@@ -26,6 +28,21 @@ public class UserGroupController {
         //Call to UserGroupService to method to add user group
 //        UserGroupService.add(userGroup)
 
+    }
+    static private void editUser(){
+        System.out.println("Starting to edit user");
+        // select + scanner
+        // call dao
+        // call to
+        //
+
+    }
+    static private void deleteUser(){
+        System.out.println("usuwanie uzytkownika");
+        // pobranie od uzytkownika id uzytkownika do usuniecia
+        // kontakt z baza danych
+        // usuniecie konkretnego uzytkownika
+        // zakonczenie połączenia
     }
 
     private static void printAll(){
